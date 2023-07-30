@@ -1,0 +1,62 @@
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px 10px;
+    color: darkslateblue;
+    
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 20px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #333;
+}
+
+nav a:hover {
+
+color: darkslateblue
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #684949;
+    border-radius: 25% 10%;
+
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
